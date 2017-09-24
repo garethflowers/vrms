@@ -1,0 +1,16 @@
+<?php 
+// switch off error reporting
+error_reporting(0);
+
+// set header output
+header("Content-Type: text/xml;charset=iso-8859-1");
+echo '<?xml version="1.0" encoding="UTF-8"?>';
+?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>http://<?php echo $_SERVER['HTTP_HOST']; ?>/</loc>
+		<lastmod><?php echo date('c'); ?></lastmod>
+		<changefreq>daily</changefreq>
+		<priority>1</priority>
+	</url>
+</urlset>

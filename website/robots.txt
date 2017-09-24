@@ -1,0 +1,3 @@
+# Robots.txt for domain: http://vrms-website.garethflowers.com
+
+Sitemap: http://vrms-website.garethflowers.com/sitemap.php

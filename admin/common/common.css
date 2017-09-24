@@ -1,0 +1,104 @@
+@media screen, print {
+	* {
+		padding: 0;
+		margin: 0;
+	}
+	
+	body {
+		font-family: tahoma, geneva, verdana, arial, sans-serif;
+		font-size: 70%;
+	}
+	
+	#navigation {
+		width: 130px;
+		padding: 10px;
+		float: left;
+	}
+	
+	#navigation ul {
+		list-style: none;
+	}
+	
+	#navigation ul li {
+		margin-bottom: 10px;
+	}
+	
+	#navigation ul li a {
+		font-weight: bold;
+		text-align: center;
+		color: #ffffff;
+		background-color: #0000ff;
+		display: block;
+		padding: 5px;
+	}
+	
+	#content {
+		margin-left: 150px;
+		padding: 10px;
+	}
+	
+	a {
+		text-decoration:none 
+	}
+	
+	a:hover {
+		text-decoration: underline;
+	}
+	
+	input {
+		font-family: tahoma, geneva, verdana, arial, sans-serif;
+		font-size: 100%;
+	}
+	
+	h1 {
+		font-size: 150%;
+		color: #0000FF;
+		font-weight: bold
+	}
+	
+	table {
+		width: 100%;
+		border: none;
+	}
+	
+	th {
+		font-weight: bold;
+		text-align: right;
+	}
+	
+	table.results th {
+		background-color: #333333;
+		color: #ffffff;
+		text-align: left;
+		padding: 1px 3px 1px 3px;
+	}
+	
+	table.results td {
+		background-color: #eeeeee;
+	}
+	
+	.button {
+		font-weight: bold;
+		text-align: center;
+		color: #ffffff;
+		background-color: #0000ff;
+		padding: 1px 3px 1px 3px;
+		border: 1px outset #000000;
+	}
+	
+	.button:hover {
+		text-decoration: underline;
+	}
+	
+	.nowrap {
+		white-space: nowrap;
+	}
+	
+	.small {
+		font-size: 80%;
+	}
+	
+	.hac {
+		text-align: center;
+	}
+}

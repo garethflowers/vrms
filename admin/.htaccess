@@ -1,0 +1,33 @@
+################################################################################
+## prevent listing directories
+##########
+IndexIgnore */*
+
+
+
+################################################################################
+## prevent viewing .htaccess file
+##########
+<FILES .htaccess>
+order allow,deny 
+deny from all
+</FILES>
+
+
+
+################################################################################
+## url rewriting
+##########
+Addhandler application/x-httpd-php5 .xml .htm .html
+
+
+
+################################################################################
+## error documents
+##########
+ErrorDocument 400 /error.php
+ErrorDocument 401 /error.php
+ErrorDocument 410 /error.php
+ErrorDocument 403 /error.php
+ErrorDocument 404 /error.php
+ErrorDocument 500 /error.php
